@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+html{
+    font-size: 10px;
+    background-image: url("background.jpg") ;
+    background-size: cover;
+
+}
+
+.keys{
+   
+    display: flex;
+    flex:1;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.key{
+    border: .4rem solid black;
+    border-radius:.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding-left: 1rem 1.5rem;
+    width:10rem;
+    text-align: center;
+    color: white;   
+    background: rgba(5, 5, 5, 0.4);
+    transition: all .05s ease;
+    text-shadow: 0 0 .5rem black;
+
+}
+kbd{
+    display: block;
+    font-size: 4 rem;
+}
+.sound{
+    color: rgb(158, 158, 28);
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+
+}
+.playing{
+    transform : scale(1.1);
+    border-color: rgb(158, 158, 28);
+    box-shadow: 0 0 10pv  rgb(158, 158, 28);
+}
